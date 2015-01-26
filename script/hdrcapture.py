@@ -43,7 +43,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit activity
         '''
         so.setCameraOption('Face Detection','on')
-        tb.confirmSettingMode('Face Detection','on',modeNumber)
+        #tb.confirmSettingMode('Face Detection','on',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturePictureWithFDOff(self):
