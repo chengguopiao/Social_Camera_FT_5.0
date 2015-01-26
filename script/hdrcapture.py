@@ -23,7 +23,7 @@ confirmMode = util.ConfirmMode
 class CameraTest(unittest.TestCase):
     def setUp(self):
         super(CameraTest,self).setUp()
-        a.setUpDevice(False)
+        a.setUpDevice()
         sm.switchCaptureMode('Single','HDR')
         #tb.confirmCameraMode(confirmMode['Single'])
 
