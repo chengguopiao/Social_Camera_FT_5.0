@@ -69,7 +69,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         '''
         so.setCameraOption('Picture Size','StandardScreen')
-        tb.confirmSettingMode('Picture Size','StandardScreen',modeNumber)
+        #tb.confirmSettingMode('Picture Size','StandardScreen',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCaptureWithPictureSizeWidesreen(self):
