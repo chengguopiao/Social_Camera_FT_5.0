@@ -56,7 +56,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         '''
         so.setCameraOption('Face Detection','off')
-        tb.confirmSettingMode('Face Detection','off',modeNumber)
+        #tb.confirmSettingMode('Face Detection','off',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturePictureWithPictureSizeStandard(self):
@@ -82,7 +82,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         '''
         so.setCameraOption('Picture Size','WideScreen')
-        tb.confirmSettingMode('Picture Size','WideScreen',modeNumber)
+        #tb.confirmSettingMode('Picture Size','WideScreen',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturepictureWithGeoLocationOn(self):
@@ -95,7 +95,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         '''
         so.setCameraOption('Geo Location','on')
-        tb.confirmSettingMode('Geo Location','on',modeNumber)
+        #tb.confirmSettingMode('Geo Location','on',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturepictureWithGeoLocationOff(self):
@@ -107,7 +107,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         """
         so.setCameraOption('Geo Location','off')
-        tb.confirmSettingMode('Geo Location','off',modeNumber)
+        #tb.confirmSettingMode('Geo Location','off',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturePictureWithSelfTimerOff(self):
@@ -119,7 +119,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         """
         so.setCameraOption('Self Timer','0')
-        tb.confirmSettingMode('Self Timer','0',modeNumber)
+        #tb.confirmSettingMode('Self Timer','0',modeNumber)
         tb.captureAndCheckPicCount('single')
 
     def testCapturePictureWithThreeSec(self):
@@ -131,7 +131,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         """
         so.setCameraOption('Self Timer','3')
-        tb.confirmSettingMode('Self Timer','3',modeNumber)
+        #tb.confirmSettingMode('Self Timer','3',modeNumber)
         tb.captureAndCheckPicCount('single',10)
 
     def testCapturePictureWithFiveSec(self):
@@ -143,7 +143,7 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         """
         so.setCameraOption('Self Timer','5')
-        tb.confirmSettingMode('Self Timer','5',modeNumber)
+        #tb.confirmSettingMode('Self Timer','5',modeNumber)
         tb.captureAndCheckPicCount('single',10)
 
     def testCapturePictureWithTenSec(self):
@@ -155,5 +155,5 @@ class CameraTest(unittest.TestCase):
                 4.Exit  activity
         """
         so.setCameraOption('Self Timer','10')
-        tb.confirmSettingMode('Self Timer','10',modeNumber)
+        #tb.confirmSettingMode('Self Timer','10',modeNumber)
         tb.captureAndCheckPicCount('single',11)
