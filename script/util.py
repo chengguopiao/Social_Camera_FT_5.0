@@ -160,6 +160,9 @@ class Adb():
     ------------------------------------------------------------------------------------------------------------ 
     | adb.cmd('launch','com.intel.camera22/.Camera')|  launch social camera app,return adb commands             |
     ------------------------------------------------------------------------------------------------------------
+    | adb shell am start -a android.intent.action.MAIN -n com.intel.camera22/.Camera                            |
+    ------------------------------------------------------------------------------------------------------------
+    
     '''
     def cmd(self,action,path,t_path=None):
         #export android serial
@@ -201,7 +204,7 @@ class Adb():
 
 
     def _launchActivity(self,component):
-        p = self._shellcmd('am start -n ' + component)
+        p = self._shellcmd('am start -a android.intent.action.MAIN -n ' + component)
         return p
 
     def _catFile(self,path):
