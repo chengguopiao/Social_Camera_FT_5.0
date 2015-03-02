@@ -71,14 +71,14 @@
 #script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
 #script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
 script.continuous.CameraTest.testContinuousCaptureWithExposureAuto = 1
-script.continuous.CameraTest.testContinuousCaptureWithExposurePlusOne = 1
-script.continuous.CameraTest.testContinuousCaptureWithExposurePlusTwo= 1
-script.continuous.CameraTest.testContinuousCaptureWithExposureRedOne= 1
-script.continuous.CameraTest.testContinuousCaptureWithExposureRedTwo= 1
-script.continuous.CameraTest.testContinuousCapturePictureWithScenesAuto= 1
-script.continuous.CameraTest.testContinuousCapturePictureWithScenesSport= 1
+#script.continuous.CameraTest.testContinuousCaptureWithExposurePlusOne = 1
+#script.continuous.CameraTest.testContinuousCaptureWithExposurePlusTwo= 1
+#script.continuous.CameraTest.testContinuousCaptureWithExposureRedOne= 1
+#script.continuous.CameraTest.testContinuousCaptureWithExposureRedTwo= 1
+#script.continuous.CameraTest.testContinuousCapturePictureWithScenesAuto= 1
+#script.continuous.CameraTest.testContinuousCapturePictureWithScenesSport= 1
 
-script.continuous.CameraTest.testContinuousCapturePictureWithScenesPortrait= 1
+#script.continuous.CameraTest.testContinuousCapturePictureWithScenesPortrait= 1
 script.continuous.CameraTest.testContinuousCapturePictureWithScenesLandscape= 1
 script.continuous.CameraTest.testContinuousCapturePictureWithScenesNight= 1
 script.continuous.CameraTest.testContinuousCapturePictureWithFDON= 1
