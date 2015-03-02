@@ -65,11 +65,11 @@
 #script.smilecamera.CameraTest.testCaptureSmileImageWithISOFourH = 1
 #script.smilecamera.CameraTest.testCaptureSmileImageWithISOEightH = 1
 #script.smilecamera.CameraTest.testCaptureSmileImageWithWBAuto = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBIncandescent = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBDaylight = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBFluorescent = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBIncandescent = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBDaylight = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBFluorescent = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBCloudy = 1
 script.continuous.CameraTest.testContinuousCaptureWithExposureAuto = 1
 script.continuous.CameraTest.testContinuousCaptureWithExposurePlusOne = 1
 script.continuous.CameraTest.testContinuousCaptureWithExposurePlusTwo= 1
