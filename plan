@@ -130,7 +130,7 @@
 #script.quickswitch.CameraTest.testQuickSwitchtoHDRmode= 1
 #script.quickswitch.CameraTest.testQuickSwitchtoSmileCammode= 1
 #script.quickswitch.CameraTest.testQuickSwitchtoBurstmode= 1
-script.quickswitch.CameraTest.testQuickSwitchtoPerfectShotmode= 1
+#script.quickswitch.CameraTest.testQuickSwitchtoPerfectShotmode= 1
 #script.quickswitch.CameraTest.testQuickSwitchtoGallery= 1
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithHSSize = 1
 script.videocapture.CameraTest.testRecordVideoCaptureVideoWithHDSize = 1
