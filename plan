@@ -55,16 +55,16 @@
 #script.smilecamera.CameraTest.testCaptureSmileImageWithSceneSports = 1
 #script.smilecamera.CameraTest.testCaptureSmileImageWithSceneNight = 1
 #script.smilecamera.CameraTest.testCaptureSmileImageWithSceneLandscape = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithScenePortrait = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithScenePortrait = 1
 
-script.smilecamera.CameraTest.testCaptureSmileImageWithPictureSizeWidescreen = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithPictureSizeStandardScreen = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithISOAuto = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithISOOneH = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithISOTwoH = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithISOFourH = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithISOEightH = 1
-script.smilecamera.CameraTest.testCaptureSmileImageWithWBAuto = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithPictureSizeWidescreen = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithPictureSizeStandardScreen = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithISOAuto = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithISOOneH = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithISOTwoH = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithISOFourH = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithISOEightH = 1
+#script.smilecamera.CameraTest.testCaptureSmileImageWithWBAuto = 1
 script.smilecamera.CameraTest.testCaptureSmileImageWithWBIncandescent = 1
 script.smilecamera.CameraTest.testCaptureSmileImageWithWBDaylight = 1
 script.smilecamera.CameraTest.testCaptureSmileImageWithWBFluorescent = 1
