@@ -26,7 +26,7 @@ class CameraTest(unittest.TestCase):
         super(CameraTest,self).setUp()
         a.setUpDevice()
         sm.switchCaptureMode('Perfect Shot')   # change panorama mode
-        tb.confirmCameraMode(confirmMode['Perfect Shot'])
+        #tb.confirmCameraMode(confirmMode['Perfect Shot'])
 
     def tearDown(self):
         super(CameraTest,self).tearDown()
