@@ -100,20 +100,20 @@
 #script.continuous.CameraTest.testCapturepictureWithWhiteBalanceCloudy= 1
 #script.continuous.CameraTest.testCapturePictureWithFDOff= 1
 #script.continuous.CameraTest.testContinuousCapturePictureWithFDON= 1
-script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureAuto= 1
-script.perfectshot.CameraTest.testPerfectShotCaptureWithExposurePlusOne= 1
-script.perfectshot.CameraTest.testPerfectShotCaptureWithExposurePlusTwo= 1
-script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureRedOne= 1
-script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureRedTwo= 1
-script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesAuto= 1
-script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesSport= 1
+#script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureAuto= 1
+#script.perfectshot.CameraTest.testPerfectShotCaptureWithExposurePlusOne= 1
+#script.perfectshot.CameraTest.testPerfectShotCaptureWithExposurePlusTwo= 1
+#script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureRedOne= 1
+#script.perfectshot.CameraTest.testPerfectShotCaptureWithExposureRedTwo= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesAuto= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesSport= 1
 
-script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesLandscape= 1
-script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesPortrait= 1
-script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesNight= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesLandscape= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesPortrait= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturePictureWithScenesNight= 1
 
-script.perfectshot.CameraTest.testPerfectShotCapturepictureWithGeoLocationOn= 1
-script.perfectshot.CameraTest.testPerfectShotCapturepictureWithGeoLocationOff= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturepictureWithGeoLocationOn= 1
+#script.perfectshot.CameraTest.testPerfectShotCapturepictureWithGeoLocationOff= 1
 #script.panorama.CameraTest.testPanoramaCaptureWithExposureAuto= 1
 #script.panorama.CameraTest.testPanoramaCaptureWithExposurePlusOne= 1
 #script.panorama.CameraTest.testPanoramaCaptureWithExposurePlusTwo= 1
