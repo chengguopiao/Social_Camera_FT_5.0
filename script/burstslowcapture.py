@@ -44,7 +44,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Exposure','0')
         #tb.confirmSettingMode('Exposure','0',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCaptureWithExposurePlugOne(self):
         '''
@@ -57,7 +57,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Exposure','3')
         #tb.confirmSettingMode('Exposure','3',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCaptureWithExposurePlugTwo(self):
         '''
@@ -70,7 +70,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Exposure','6')
         #tb.confirmSettingMode('Exposure','6',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCaptureWithExposureRedOne(self):
         '''
@@ -83,7 +83,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Exposure','-3')
         #tb.confirmSettingMode('Exposure','-3',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCaptureWithExposureRedTwo(self):
         '''
@@ -96,7 +96,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Exposure','-6')
         #tb.confirmSettingMode('Exposure','-6',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithScenesAuto(self):
         '''
@@ -109,7 +109,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Scenes','auto')
         #tb.confirmSettingMode('Scenes','auto',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithScenesSports(self):
         '''
@@ -122,7 +122,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Scenes','sports')
         #tb.confirmSettingMode('Scenes','sports',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithScenesNight(self):
         '''
@@ -135,7 +135,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Scenes','night')
         #tb.confirmSettingMode('Scenes','night',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithScenesLandscape(self):
         '''
@@ -148,7 +148,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Scenes','landscape')
         #tb.confirmSettingMode('Scenes','landscape',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithScenesPortrait(self):
         '''
@@ -161,7 +161,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Scenes','portrait')
         #tb.confirmSettingMode('Scenes','portrait',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     #def testCapturePictureWithScenesNightPortrait(self):
         '''
@@ -186,7 +186,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Picture Size','WideScreen')
         #tb.confirmSettingMode('Picture Size','WideScreen',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturePictureWithSizeStandard(self):
         '''
@@ -199,7 +199,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Picture Size','StandardScreen')
         #tb.confirmSettingMode('Picture Size','StandardScreen',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
     
     def testCapturepictureWithGeoLocationOn(self):
         '''
@@ -212,7 +212,7 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Geo Location','on')
         #tb.confirmSettingMode('Geo Location','on',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
 
     def testCapturepictureWithGeoLocationOff(self):
         '''
@@ -225,4 +225,4 @@ class CameraTest(unittest.TestCase):
         '''
         so.setCameraOption('Geo Location','off')
         #tb.confirmSettingMode('Geo Location','off',modeNumber)
-        tb.captureAndCheckPicCount('single',10)
+        tb.captureAndCheckPicCount('single',10,1,'burst')
