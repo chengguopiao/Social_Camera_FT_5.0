@@ -271,7 +271,7 @@ class Adb():
             
         if delAndReFlag:
             #Delete all image/video files captured before
-            self.cmd('rm','/sdcard/DCIM/*')
+            #self.cmd('rm','/sdcard/DCIM/*')
             #Refresh media after delete files
             self.cmd('refresh','/sdcard/DCIM/*')
         #Launch social camera
